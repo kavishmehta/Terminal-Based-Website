@@ -1,0 +1,46 @@
+body {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	background-color: #111;
+/*	color: #1EFF00;*/
+/*	color: rgb(0,140,35);	*/
+	color: #eef4fa;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.typed-cursor{
+	background: #eef4fa;
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.three-main {
+	display: none;
+}
+
+.three-span {
+/*	color: rgb(0,140,35);*/
+	color: #1EFF00;
+}
+
+.four-one {
+	color: #1EFF00;
+}
+
+.four-main {
+	display: none;
+}
+
+.four-span {
+	color: #1EFF00;
+}
+
+#time, #time2, #time3{
+	display: none;
+	font-weight: 400;
+}
